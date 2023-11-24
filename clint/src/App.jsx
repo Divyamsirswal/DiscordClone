@@ -1,19 +1,14 @@
-import { useEffect, useState } from "react";
-
-
+import { Route, Routes } from 'react-router-dom'
+import { Dashboard } from "./pages/Dashboard";
 function App() {
-  const [data, setData] = useState([])
-  useEffect(() => {
-    (async () => {
-        const data = await fetch('/data')
-            .then(res => res.json())
-
-        setData(data)
-    })()
-}, [])
-  return <>
-    {`${data.data}`}
-  </>;
+  return (
+  <div> 
+    <Routes>
+        <Route path='*' element={<h1>Not Found</h1>} />
+        <Route path='/dashboard' element={<Dashboard />} />
+      </Routes>
+  </div>
+  )
 }
 
 export default App;
