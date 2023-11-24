@@ -1,0 +1,23 @@
+/* AddPostBtn.css */
+
+.add-post-link {
+    text-decoration: none; /* Remove the underline from the link */
+  }
+  
+  .add-post-btn {
+    background-color: #2196f3; /* Set your desired background color */
+    color: #fff; /* Set the text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  
+    /* Add additional styles as needed */
+  }
+  
+  .add-post-btn:hover {
+    background-color: #0d47a1; /* Change the background color on hover */
+  }
+  

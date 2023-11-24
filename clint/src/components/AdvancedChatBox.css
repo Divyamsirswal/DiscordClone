@@ -1,0 +1,54 @@
+/* AdvancedChatBox.css */
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.message-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.timestamp {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 5px;
+}
+
+.chat-box {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}

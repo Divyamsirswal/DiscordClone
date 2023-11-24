@@ -1,0 +1,22 @@
+/* YourComponent.css */
+
+.chat-button-link {
+  text-decoration: none; /* Remove the underline from the link */
+}
+
+.chat-button {
+  background-color: #4caf50; /* Set your desired background color */
+  color: #fff; /* Set the text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+  /* Add additional styles as needed */
+}
+
+.chat-button:hover {
+  background-color: #45a049; /* Change the background color on hover */
+}
