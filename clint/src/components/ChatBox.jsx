@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import './ChatBox.css'
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 export default function ChatBox() {
   const [messages, setMessages] = useState([
@@ -24,7 +27,7 @@ export default function ChatBox() {
         {messages.map((message) => (
           <div
             key={message.id}
-            className={message.sender === "You" ? "self" : "other"}
+            className={` chat_message  ${message.sender === "You" ? "self" : "other"}`}
           >
             <span className="sender">{message.sender}</span>
             <span className="text">{message.text}</span>
@@ -38,8 +41,9 @@ export default function ChatBox() {
           value={newMessage}
           onChange={(e) => setNewMessage(e.target.value)}
         />
-        <button onClick={handleSendMessage}>Send</button>
+        <Button variant="outlined" onClick={handleSendMessage}>Send</Button>
       </div>
+      
     </div>
   );
 }

@@ -1,7 +1,7 @@
 // ChatPage.jsx
 import React from 'react';
 import ChatBox from '../components/ChatBox';
-import './ChatPage.css';
+import './ChatPage.css'; // Import your CSS file
 
 export default function ChatPage() {
   return (
@@ -16,8 +16,12 @@ export default function ChatPage() {
         </ul>
       </div>
       <div className="chat-section">
-        <h1>Chat Page</h1>
-        <ChatBox />
+        <div className="chat-section-header">
+          <h1>Messages</h1>
+        </div>
+        <div className="chat-section-content">
+          <ChatBox />
+        </div>
       </div>
     </div>
   );

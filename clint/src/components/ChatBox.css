@@ -1,0 +1,23 @@
+.chat-box {
+    min-height: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.chat_message {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    gap: 8px;
+}
+.chat-section-input {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+  
+.self {
+justify-content: right;
+}
+  
