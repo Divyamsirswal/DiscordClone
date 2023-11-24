@@ -4,7 +4,8 @@ import { Dashboard } from "./Dashboard";
 export default function Home() {
   return (
     <div>
-      <Dashboard />
+        <NavBar />
+        <Dashboard/>
     </div>
   );
 }

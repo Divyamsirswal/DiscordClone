@@ -9,3 +9,12 @@ import '@fontsource/roboto/700.css';
   box-sizing: border-box;
   background-color: #fff;
 }
+
+.nav{
+  text-align: center;
+  padding: 10px;
+}
+
+.navbutton{
+  margin-top: 10px;
+}
