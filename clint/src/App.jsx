@@ -8,6 +8,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
+import AddPost from "./pages/AddPost";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="*" element={<h1>Not Found</h1>} />
         <Route path="/dashboard" element={<Dashboard />} />D
         <Route path="/post/:id" element={<PostDetail />} />
+        <Route path="/add-post" element={<AddPost />} />
       </Routes>
     </div>
   );
