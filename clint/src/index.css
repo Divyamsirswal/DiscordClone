@@ -1,8 +1,19 @@
-  .nav{
-    text-align: center;
-    padding: 10px;
-  }
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
-  .navbutton{
-    margin-top: 10px;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  text-align: center;
+  padding: 10px;
+}
+
+.navbutton{
+  margin-top: 10px;
+}
