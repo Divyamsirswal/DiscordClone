@@ -50,9 +50,7 @@ export default function ChatBox() {
         {messages.map((message) => (
           <div
             key={message.id}
-            className={`chat-message ${
-              message.sender === "You" ? "self" : "other"
-            }`}
+            className={message.sender === "You" ? "self" : "other"}
           >
             <div className="avatar">
               <Avatar>{message.sender[0]}</Avatar>
@@ -75,10 +73,9 @@ export default function ChatBox() {
           onChange={(e) => setNewMessage(e.target.value)}
           onKeyDown={handleKeyPress} // Add the onKeyDown event handler
         />
-        <Button variant="contained" onClick={handleSendMessage}>
-          Send
-        </Button>
+        <button onClick={handleSendMessage}>Send</button>
       </div>
+      
     </div>
   );
 }

@@ -16,8 +16,12 @@ export default function ChatPage() {
         </ul>
       </div>
       <div className="chat-section">
-        <h1>Chat Page</h1>
-        <ChatBox />
+        <div className="chat-section-header">
+          <h1>Messages</h1>
+        </div>
+        <div className="chat-section-content">
+          <ChatBox />
+        </div>
       </div>
     </div>
   );
