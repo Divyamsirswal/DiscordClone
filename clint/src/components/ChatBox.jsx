@@ -1,10 +1,11 @@
+// ChatBox.jsx
 import React, { useState } from "react";
+import "./ChatBox.css"; // Import the new CSS file
 
 export default function ChatBox() {
   const [messages, setMessages] = useState([
     { id: 1, sender: "Alice", text: "Hi there!" },
     { id: 2, sender: "Bob", text: "Hello!" },
-    
   ]);
 
   const [newMessage, setNewMessage] = useState("");
@@ -18,6 +19,7 @@ export default function ChatBox() {
       setNewMessage("");
     }
   };
+
   return (
     <div className="chat-box">
       <div className="message-container">

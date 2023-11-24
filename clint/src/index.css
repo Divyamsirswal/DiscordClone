@@ -7,14 +7,14 @@ import '@fontsource/roboto/700.css';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #E9F1F7;
 }
 
 .nav{
   text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 .navbutton{
-  margin-top: 10px;
+  margin-top: 20px;
 }

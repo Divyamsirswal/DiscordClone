@@ -1,13 +1,14 @@
-// Import React and any necessary styling
-import React, { useState } from "react";
+// Import necessary components and styles
+import React from "react";
 import "./Dashboard.css"; // Import your CSS file
-import { Link } from "react-router-dom";
+import PostList from "../components/PostList";
+import NavBar from "../components/NavBar";
 
 export function Dashboard() {
-
   return (
     <div className="dashboard-container">
-      <Link to={"/chat"} >CHAT PAGE</Link>
+      <PostList />
+      {/* Add more dashboard content as needed */}
     </div>
   );
 }

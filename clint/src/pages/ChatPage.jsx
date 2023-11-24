@@ -1,7 +1,7 @@
 // ChatPage.jsx
-import React from 'react';
-import ChatBox from '../components/ChatBox';
-import './ChatPage.css';
+import React from "react";
+import ChatBox from "../components/ChatBox";
+import "./ChatPage.css";
 
 export default function ChatPage() {
   return (

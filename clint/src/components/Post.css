@@ -1,0 +1,44 @@
+.post-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.2s ease-in-out;
+  background-color: #fbfbfb; /* Change the background color to your preference */
+}
+
+.post-container:hover {
+  transform: scale(1.05);
+}
+
+.centered-image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 10px;
+  align-items: center;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.post-body {
+  line-height: 1.4;
+}

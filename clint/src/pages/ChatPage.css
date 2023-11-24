@@ -1,40 +1,31 @@
 /* ChatPage.css */
 
 .chat-page-container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .friends-list {
-    flex: 1;
-    padding: 20px;
-    border-right: 1px solid #ccc;
-    overflow-y: auto;
-  }
-  
-  .friends-list h2 {
-    margin-bottom: 10px;
-  }
-  
-  .friends-list ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .friends-list li {
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .friends-list li:hover {
-    background-color: #f5f5f5;
-  }
-  
-  .chat-section {
-    flex: 3;
-    padding: 20px;
-    overflow-y: auto;
-  }
-  
-  /* Add any additional styles as needed */
-  
+  display: flex;
+  background-color: #f2f2f2; /* Set the background color */
+  height: 100vh; /* Set the height to full viewport height */
+}
+
+.friends-list {
+  width: 200px;
+  padding: 20px;
+  background-color: #fff; /* Set background color for the friends list */
+}
+
+.chat-section {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff; /* Set background color for the chat section */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Add more styles as needed */
